@@ -8,7 +8,7 @@ sitemap :
 changefreq : daily
 priority : 1.0
 ---
-
+<h1>Setting up Github Pages with Jekyll</h1>
 <p>This is a quick summary to build Github Pages with Jekyll Theme on Windows</p>
 
 <h2 class="section-heading">1. RubyInstaller</h2>
