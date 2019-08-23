@@ -4,6 +4,7 @@ title: "Setting up Github Pages with Jekyll"
 subtitle: "Host a website on Github using Jekyll Theme with Ruby on Windows"
 date: 2019-08-19
 background: '/img/posts/05.jpg'
+categories : posts/jekyll
 sitemap :
 changefreq : daily
 priority : 1.0
