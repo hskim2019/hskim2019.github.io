@@ -162,6 +162,8 @@ layout: page
 
 <br>
 
+
+
 <h2>5. Create or modify index.html in _includes.</h2>
 <p>Clean-blog Jekyll theme doesn´t have index.html so created index.html and added lines as below.</p>
 <img src="/img/posts/190823/includesindexhtml.PNG" alt="index.html">
@@ -205,5 +207,3 @@ priority : 1.0
 ---
 </code>
 </pre>
-
-<h2></h2>
