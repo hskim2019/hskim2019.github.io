@@ -34,7 +34,7 @@ priority : 1.0
           <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
           <ul>
             <li><a href="/posts/spring">Spring</a></li>
-            <li><a href="/posts/Jekyll">Jekyll</a></li>
+            <li><a href="/posts/jekyll">Jekyll</a></li>
         </ul>
         </li>
         <li class="nav-item">
