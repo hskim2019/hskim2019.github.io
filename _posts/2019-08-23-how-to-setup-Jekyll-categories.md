@@ -18,7 +18,7 @@ priority : 1.0
 
 
 <h2>1. Change _includes/navbar.html</h2>
-<p>I wanted to make dropdown menu as image bellow and added some lines in navbar.html. You can change header.html or other files depending on your Jekyll themes.</p>
+<p>I wanted to make dropdown menu as image below and added some lines in navbar.html. You can change header.html or other files depending on your Jekyll themes.</p>
 <img src="/img/posts/190823/dropdown.PNG" alt="dropdown">
 
 ```html
