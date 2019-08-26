@@ -135,17 +135,15 @@ permalink: '/posts/jekyll'
 <p>This is for the layout of category pages.</p>
 <img src="/img/posts/190823/layoutcategory.PNG" alt="category.html">
 
-<p>Eliminate blank between { and % when you copy the code below.</p>
-
 ```html
 ---
 layout: page
 ---
 
 <ul class="posts-list">
-  
-  { % assign category = page.category | default: page.title % }
-  { % for post in site.categories[category] % }
+  {% raw %}
+  {% assign category = page.category | default: page.title %}
+  {% for post in site.categories[category] %}
     <li>
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
@@ -154,14 +152,13 @@ layout: page
         <small>{{ post.date | date_to_string }}</small>
       </h3>
     </li>
-  { % endfor % }
-  
+  {% endfor %}
+  {% endraw %}
 </ul>
 ```
 <span class="caption text-muted">/root/_layouts/category.html</span>
 
 <br>
-
 
 
 <h2>5. Create or modify index.html in _includes.</h2>
@@ -171,17 +168,17 @@ layout: page
 ```html
 <header class="site-category">
   <ul>
-    
-    { % assign pages_list = site.pages % }
-    { % for node in pages_list % }
-      { % if node.title != null % }
-        { % if node.layout == "category" % }
+    {% raw %}
+    {% assign pages_list = site.pages %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "category" %}
           <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
           href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
-        { % endif % }
-      { % endif % }
-    { % endfor % }
-    
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% endraw %}
 </ul>
 </header>
 ```
