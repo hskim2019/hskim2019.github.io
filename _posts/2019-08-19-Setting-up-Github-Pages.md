@@ -15,7 +15,7 @@ priority : 1.0
 <h2 class="section-heading">1. RubyInstaller</h2>
 <h5>1-1. If you don´t have Ruby installed, install Ruby with Development Kit</h5>
 <a href="https://rubyinstaller.org/downloads/">https://rubyinstaller.org/downloads</a>
-<img src="/img/posts/190819/rubyinstaller.PNG" alt="RubyInstaller Page">
+<img class="img-fluid" src="/img/posts/190819/rubyinstaller.PNG" alt="RubyInstaller Page">
 
 <h5>1-2. Install MSYS2 following instructions for Ruby Installer</h5>
 <h5>1-3. Check the version of Ruby after installation on Ruby Command Prompt</h5>

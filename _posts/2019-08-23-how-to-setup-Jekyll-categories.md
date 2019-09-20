@@ -13,13 +13,13 @@ priority : 1.0
 <h1>Creating categories in Jekyll blog with permalink</h1>
 <br>
 
-<h2>Reference</h2>
+<h2 class="section-heading">Reference</h2>
 <a href="https://devyurim.github.io/development%20environment/github%20blog/2018/08/12/blog-8.html">https://devyurim.github.io/development%20environment/github%20blog/2018/08/12/blog-8.html</a>
 
 
-<h2>1. Change _includes/navbar.html</h2>
+<h2 class="section-heading">1. Change _includes/navbar.html</h2>
 <p>I wanted to make dropdown menu as image below and added some lines in navbar.html. You can change header.html or other files depending on your Jekyll themes.</p>
-<img src="/img/posts/190823/dropdown.PNG" alt="dropdown">
+<img class="img-fluid" src="/img/posts/190823/dropdown.PNG" alt="dropdown">
 
 ```html
     <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -44,7 +44,7 @@ priority : 1.0
     </div>
 ```
 <br>
-<h2>2. Add css code in </h2>
+<h2 class="section-heading">2. Add css code in </h2>
 <p>/assets/vendor/startbootstrap-clean-blog/scss/_navbar.scss</p>
 <p>or in other files as necessary.</p>
 
@@ -113,9 +113,9 @@ priority : 1.0
     }
 ```
 <br>
-<h2>3. Create category folder under /root directory and md files</h2>
+<h2 class="section-heading">3. Create category folder under /root directory and md files</h2>
 <p>Created category folder under /root directory, for example, hskim2019.github.io/category</p>
-<img src="/img/posts/190823/categoryfolder.PNG" alt="categoryfolder">
+<img class="img-fluid" src="/img/posts/190823/categoryfolder.PNG" alt="categoryfolder">
 <p>Also, created markdown files containing layout, title and permalink as image below.</p>
 <p>You can create more markdown files depending on categories you want to make. Below is an example.</p>
 
@@ -131,9 +131,9 @@ permalink: '/posts/jekyll'
 <span class="caption text-muted">/root/category/Jekyll.md</span>
 
 
-<h2>4. Create category.html in _layouts</h2>
+<h2 class="section-heading">4. Create category.html in _layouts</h2>
 <p>This is for the layout of category pages.</p>
-<img src="/img/posts/190823/layoutcategory.PNG" alt="category.html">
+<img class="img-fluid" src="/img/posts/190823/layoutcategory.PNG" alt="category.html">
 
 ```html
 ---
@@ -161,9 +161,9 @@ layout: page
 <br>
 
 
-<h2>5. Create or modify index.html in _includes.</h2>
+<h2 class="section-heading">5. Create or modify index.html in _includes.</h2>
 <p>Clean-blog Jekyll theme doesn´t have index.html so created index.html and added lines as below.</p>
-<img src="/img/posts/190823/includesindexhtml.PNG" alt="index.html">
+<img class="img-fluid" src="/img/posts/190823/includesindexhtml.PNG" alt="index.html">
 
 ```html
 <header class="site-category">
@@ -187,7 +187,7 @@ layout: page
 
 <br>
 
-<h2>6. Set category when you post.</h2>
+<h2 class="section-heading">6. Set category when you post.</h2>
 <p>Set category when you post. Below is the example.</p>
 <pre class="highlight">
 <code>
